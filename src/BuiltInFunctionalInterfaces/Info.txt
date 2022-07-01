@@ -1,0 +1,29 @@
+#1) Predicate
+This is a functional interface in Java that has a single abstract method test. 
+The ‘test’ method returns the boolean value after testing the specified argument.
+
+Given below is the prototype for the test method of the Predicate interface.
+
+public interface Predicate {
+	public boolean test(T t);
+}
+
+#2) BinaryOperator
+BinaryOperator interface provides an abstract method ‘apply’ which accepts two arguments and 
+returns a resultant value of the same type as the arguments.
+
+The prototype for the accept method is:
+
+public interface BinaryOperator { 
+	public T apply (T x, T y);
+}
+
+#3) Function
+The Function interface is a functional interface that also has an abstract method named ‘apply’.
+This apply method, however, takes a single argument of type T and returns a value of type R.
+
+The prototype of the apply method is as follows:
+
+public interface Function {
+	public R apply(T t);
+}
