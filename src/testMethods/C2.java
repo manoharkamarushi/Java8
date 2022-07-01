@@ -18,7 +18,7 @@ public class C2 implements ITest1, ITest2 {
 		C2 c2 = new C2();
 		c2.m1();
 		c2.m2();
-//			ITest2.m3();
-//			ITest1.m3();
+			ITest2.m3();
+			ITest1.m3();
 	}
 }
