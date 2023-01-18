@@ -1,2 +1,2 @@
 # Java8
-Java 8 concepts 
+Java 8 concepts - functionalinterfaces
